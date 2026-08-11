@@ -5,7 +5,7 @@ coding agents. Direct user instructions and more specific repository
 instructions override it.
 
 The current release is
-[`v2026.08.10`](https://github.com/kenn-io/constitution/releases/tag/v2026.08.10).
+[`v2026.08.11`](https://github.com/kenn-io/constitution/releases/tag/v2026.08.11).
 
 ## Use it globally
 
