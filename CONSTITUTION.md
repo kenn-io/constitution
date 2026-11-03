@@ -1,4 +1,4 @@
-<!-- Clanker Constitution v2026.10.24 | https://github.com/kenn-io/constitution -->
+<!-- Clanker Constitution v2026.11.03 | https://github.com/kenn-io/constitution -->
 # Clanker Constitution
 
 Default operating principles for coding agents. Direct user instructions and
