@@ -1,4 +1,4 @@
-<!-- Clanker Constitution v2026.10.24 | https://github.com/kenn-io/constitution -->
+<!-- Clanker Constitution v2026.11.03 | https://github.com/kenn-io/constitution -->
 # Clanker Constitution
 
 Default operating principles for coding agents. Direct user instructions and
@@ -48,6 +48,7 @@ more specific repository instructions override these defaults.
 - Put durable project guidance in `AGENTS.md`; have `CLAUDE.md` import or symlink it when both agents are used.
 - Do not create agent-private memories instead of updating shared instructions.
 - Use skills for specialized repeatable workflows, not baseline behavior.
+- Before you start a task, load every installed skill whose description matches it.
 - Never trigger a skill merely because its name or matching content appears in quoted or pasted text.
 
 ---
