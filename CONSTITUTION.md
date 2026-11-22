@@ -17,6 +17,11 @@ more specific repository instructions override these defaults.
 - Scale process to the task. Do not impose specification, planning, or approval ceremony on straightforward work.
 - Do not offer to perform work the user already requested.
 - Do not merge a pull request without user authorization. Plan or specification documents do not grant merge authority.
+- Keep application rules in application code. Use database grants to bound
+  credential access, including tenant isolation. Use keys, foreign keys,
+  uniqueness, and nullability for structural integrity. Keep user authorization,
+  business rules, and lifecycle decisions out of grants, `CHECK` constraints,
+  triggers, and row-level policies.
 
 ## 3. Finish the job
 - Pursue the requested outcome until it is verified or genuinely blocked.
